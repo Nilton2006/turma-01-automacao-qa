@@ -6,8 +6,7 @@ let naoautomatizaveis:number =0;
 
 for (let i = 1; i<=5; i++){
     const cenario: string = prompt(`Digite o ${i}o cenário:`);
-    const resposta: string = prompt(`É automatizável? (sim/não)`);
-    resposta.toLowerCase;
+    const resposta: string = prompt(`É automatizável? (sim/não)`).toLowerCase();
 
     if (resposta === "sim"){
         console.log(`${cenario} -> Automatizar`);
@@ -26,6 +25,3 @@ for (let i = 1; i<=5; i++){
 
 console.log(`Total de cenarios automatizaveis ${automatizaveis}`);
 console.log(`Total de cenarios não-automatizaveis ${naoautomatizaveis}`);
-
-
-

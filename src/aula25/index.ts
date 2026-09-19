@@ -34,9 +34,9 @@
 
 
 
-type Pessoa = {nome:string; idade:number};
-function criarPessoa(n:string, idade:number): Pessoa{
-    return{nome: n, idade:idade};
-}
-const p = criarPessoa("Kathlyn", 24);
-console.log(p)
+// type Pessoa = {nome:string; idade:number};
+// function criarPessoa(n:string, idade:number): Pessoa{
+//     return{nome: n, idade:idade};
+// }
+// const p = criarPessoa("Kathlyn", 24);
+// console.log(p)
